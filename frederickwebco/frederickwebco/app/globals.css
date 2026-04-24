@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display&display=swap');
-
 :root {
-  --font-sans: 'DM Sans', sans-serif;
-  --font-serif: 'DM Serif Display', serif;
+  --font-sans: 'Georgia', serif;
+  --font-serif: 'Georgia', serif;
 
   --blue: #1a56db;
   --blue-light: #ebf0fd;
@@ -23,7 +21,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: var(--font-sans);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background: var(--bg);
   color: var(--text);
   font-size: 16px;
@@ -32,18 +30,12 @@ body {
 }
 
 a { text-decoration: none; color: inherit; }
-button { cursor: pointer; font-family: var(--font-sans); }
+button { cursor: pointer; font-family: inherit; }
 ul { list-style: none; }
 
-/* Animations */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
 
 .animate-fade-up {
