@@ -1,18 +1,5 @@
 import type { Metadata } from 'next'
-import { DM_Sans, DM_Serif_Display } from 'next/font/google'
 import './globals.css'
-
-const dmSans = DM_Sans({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  weight: ['300', '400', '500'],
-})
-
-const dmSerif = DM_Serif_Display({
-  subsets: ['latin'],
-  variable: '--font-serif',
-  weight: '400',
-})
 
 export const metadata: Metadata = {
   title: 'Frederick Web Co. — Local Websites for Frederick, MD Businesses',
@@ -34,7 +21,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${dmSerif.variable}`}>
+    <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+      </head>
       <body>{children}</body>
     </html>
   )
