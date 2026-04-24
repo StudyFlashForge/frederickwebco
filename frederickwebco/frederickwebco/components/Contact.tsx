@@ -50,8 +50,8 @@ export default function Contact() {
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {[
-              { label: 'Email', value: 'carter@frederickwebco.com' },
-              { label: 'Phone', value: '(301) 555-0198' },
+              { label: 'Email', value: 'contact@frederickwebco.com' },
+              { label: 'Phone', value: '(301) 401-2213' },
               { label: 'Location', value: 'Frederick, MD' },
             ].map(item => (
               <div key={item.label} style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
