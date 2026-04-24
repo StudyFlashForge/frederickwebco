@@ -1,9 +1,9 @@
 'use client'
 
 const plans = [
-  { name: 'Starter', price: '$399', desc: 'Get your business online fast with a clean, simple site.', features: ['1–3 pages', 'Mobile friendly', 'Contact form', 'Google Maps embed', 'Domain setup', '1 round of revisions'], featured: false },
-  { name: 'Standard', price: '$649', desc: 'A complete web presence for your business.', features: ['4–6 pages', 'Photo gallery', 'Social media links', 'Basic SEO setup', 'Google Analytics', '2 rounds of revisions'], featured: true },
-  { name: 'Business', price: '$999', desc: 'For businesses ready to grow their online presence.', features: ['6–10 pages', 'Blog or booking form', 'Advanced local SEO', 'Google Business setup', 'Priority turnaround', 'Unlimited revisions'], featured: false },
+  { name: 'Starter', price: '$499', desc: 'Get your business online fast with a clean, simple site.', features: ['1–3 pages', 'Mobile friendly', 'Contact form', 'Google Maps embed', 'Domain setup', '1 round of revisions'], featured: false },
+  { name: 'Standard', price: '$749', desc: 'A complete web presence for your business.', features: ['4–6 pages', 'Photo gallery', 'Social media links', 'Basic SEO setup', 'Google Analytics', '2 rounds of revisions'], featured: true },
+  { name: 'Business', price: '$1,099', desc: 'For businesses ready to grow their online presence.', features: ['6–10 pages', 'Blog or booking form', 'Advanced local SEO', 'Google Business setup', 'Priority turnaround', 'Unlimited revisions'], featured: false },
 ]
 
 const management = [
