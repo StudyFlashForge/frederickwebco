@@ -1,15 +1,14 @@
 'use client'
 
 const plans = [
-  { name: 'Starter', price: '$499', desc: 'Get your business online fast with a clean, simple site.', features: ['1–3 pages', 'Mobile friendly', 'Contact form', 'Google Maps embed', 'Domain setup', '1 round of revisions'], featured: false },
-  { name: 'Standard', price: '$749', desc: 'A complete web presence for your business.', features: ['4–6 pages', 'Photo gallery', 'Social media links', 'Basic SEO setup', 'Google Analytics', '2 rounds of revisions'], featured: true },
+  { name: 'Starter', price: '$499', desc: 'Get your business online fast with a clean, simple site.', features: ['1–3 pages', 'Mobile friendly', 'Contact form', 'Google Maps embed', 'Domain setup', '2 rounds of revisions'], featured: false },
+  { name: 'Standard', price: '$749', desc: 'A complete web presence for your business.', features: ['4–6 pages', 'Photo gallery', 'Social media links', 'Basic SEO setup', 'Google Analytics', '4 rounds of revisions'], featured: true },
   { name: 'Business', price: '$1,099', desc: 'For businesses ready to grow their online presence.', features: ['6–10 pages', 'Blog or booking form', 'Advanced local SEO', 'Google Business setup', 'Priority turnaround', 'Unlimited revisions'], featured: false },
 ]
 
 const management = [
-  { tier: 'Basic', price: '$75/mo', desc: 'Hosting, domain renewal, security updates, uptime monitoring.' },
-  { tier: 'Standard', price: '$125/mo', desc: 'Everything in Basic plus content updates and a monthly report.' },
-  { tier: 'Growth', price: '$250/mo', desc: 'Everything in Standard plus SEO monitoring and Google Business management.' },
+  { tier: 'Standard', price: '$75/mo', desc: 'Hosting, domain renewal, uptime monitoring.' },
+  { tier: 'Growth', price: '$150/mo', desc: 'Everything in Basic plus content updates and a monthly report.' },
 ]
 
 export default function Pricing() {
